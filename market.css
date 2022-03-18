@@ -1,0 +1,58 @@
+#cabecera {
+    display: flex;
+    justify-content: space-between;
+
+}
+#cabecera img:first-child{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+#cabecera img:nth-child(2){
+    width: 70px;
+    height: 70px;
+    margin: 20px 35px;
+}
+.oferta img{
+    height: 350px;
+    margin: auto;
+    display: block;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(245, 184, 70);
+    padding: 10px;
+    margin: 20px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+#cursos{
+    display: flex;
+}
+.seccion img{
+    width: 200px;
+    height: 150px;
+
+}
+.seccion{
+    display: flex;
+    flex-grow: 1;
+}
+.texto{
+    padding: 10px;
+}
+#footer ul{
+    display: flex;
+    text-align: left;
+}
+.divtexto{
+    
+}
+
+
